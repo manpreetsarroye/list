@@ -1,0 +1,14 @@
+# a=int(input('enter a no:-'))
+
+c='70304'
+x=''
+i=1
+for a in c:
+    if a=="0":
+        pass
+    else:
+        d=int(a)
+        b=len(c)-i
+        x=x+str(d*(10**b))+'+'
+        i=i+1
+print(x[:-1])
